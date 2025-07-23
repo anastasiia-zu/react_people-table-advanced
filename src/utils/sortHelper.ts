@@ -22,7 +22,7 @@ export function sortPeople(
       typeof firstSortedField === 'number' &&
       typeof secondSortedField === 'number'
     ) {
-      return firstSortedField - secondSortedField * multiplier;
+      return (firstSortedField - secondSortedField) * multiplier;
     }
 
     if (
